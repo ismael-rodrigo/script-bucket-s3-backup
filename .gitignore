@@ -1,0 +1,7 @@
+./backup_out
+backup_out/
+backup_out
+
+.env
+
+poetry.lock

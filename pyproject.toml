@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "script-for-backup-s3-files"
+version = "0.1.0"
+description = ""
+authors = ["ismael-rodrigo <ismaelbrasil02@gmail.com>"]
+readme = "README.md"
+packages = [{include = "script_for_backup_s3_files"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.26.21"
+python-decouple = "^3.6"
+tqdm = "^4.64.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
